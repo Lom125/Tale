@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Сказка</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Balsamiq+Sans?sidebar.open&selection.family=Balsamiq+Sans:wght@400;700#standard-styles">
+	<script src="js/code.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Сказка про курочку рябу</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<blockquote class="text-tale">Текст сказки...</blockquote>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<button class="btn-create-text" type="button" onclick="showText(textTale)">Создать текст</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<form class="vars-form" action="#" method="get" name="varsForm">
+					<fieldset class="field-border fs1">
+						<legend>Введите переменные</legend>
+						<div class="row">
+							<div class="col-12 col-sm-6">
+								<label for="inputVar1">Введите var1</label>
+								<input type="text" name="inputVar1" id="inputVar1" placeholder="дед">
+							</div>
+							<div class="col-12 col-sm-6">
+								<label for="inputVar4">Введите var4</label>
+								<input type="text" name="inputVar4" id="inputVar4" placeholder="яичко">
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col-12 col-sm-6">
+								<label for="inputVar2">Введите var2</label>
+								<input type="text" name="inputVar2" id="inputVar2" placeholder="баба">
+							</div>
+							<div class="col-12 col-sm-6">
+								<label for="inputVar5">Введите var5</label>
+								<input type="text" name="inputVar5" id="inputVar5" placeholder="мышка">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-sm-6">
+								<label for="inputVar3">Введите var3</label>
+								<input type="text" name="inputVar3" id="inputVar3" placeholder="курочка-ряба">
+							</div>
+							<div class="col-12 col-sm-6">
+								<label for="inputVar6">Введите var6</label>
+								<input type="text" name="inputVar6" id="inputVar6" placeholder="хвостиком">
+							</div>
+						</div>	
+					</fieldset>
+					<fieldset class="field-border fs2">
+						<div class="row">
+							<div class="col-12 col-sm-6">
+								<label for="inputSpeach">Введите speach:</label>
+								<textarea class="text-ar" cols="50" rows="3" id="inputSpeach" name="inputSpeach" placeholder="Не плачь ..."></textarea>
+							</div>
+							<div class="col-12 col-sm-6">
+								<button class="btnChange" type="button" name="inputVars" onclick="changeVars(finalText)">Заменить переменные</button>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

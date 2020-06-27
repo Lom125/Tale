@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('../fonts/OBalsamiqSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('../fonts/BalsamiqSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+	font-family: "Balsamiq Sans", Helvetica, Arial, sans-serif;
+	background-color: #CCc;
+	font-size: 18px;
+}
+
+.container {
+	min-height: 600px;
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.col h1 {
+	width: 100%;
+	font-weight: 700;
+	text-align: center;
+	margin: 5px auto;
+}
+
+.text-tale {
+	width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+	color: white;
+	background-color: #555;
+}
+
+.btn-create-text {
+	width: 38%;
+	height: 55px;
+	margin: 0 31%;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+	border-radius: 10px;
+	background-color: #eea;
+}
+
+.btn-create-text:hover {
+	cursor: pointer;
+	background-color: orange;
+}
+
+.field-border {
+	margin: 0 auto;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+}
+
+.vars-form label {
+	margin-left: 10%
+}
+
+.fs1 {
+	border-bottom-color: #eea;
+}
+
+.fs2 {
+	border-top-color: #eea;
+}
+
+.field-border legend {
+	text-transform: uppercase;
+	text-align: center;
+	width: 38%;
+	margin-left: 2vw;
+}
+
+.col-12 label {
+	margin-right: 10px;
+}
+
+.text-ar {
+	width: 100%;
+	min-height: 55px;
+}
+
+.btnChange {
+	position: relative;
+	bottom: 0;
+	height: 55px;
+	left: 12%;
+	top: 61%;
+	width: 76%;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+	border-radius: 10px;
+	background-color: #eea;
+}
+
+.btnChange:hover {
+	cursor: pointer;
+	background-color: orange;
+}
+
+@media screen and (max-width: 576px) {
+	.btnChange {
+		top: 20%;
+	}
+}
